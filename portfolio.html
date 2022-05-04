@@ -26,23 +26,26 @@
 
         <div class="container h-nav">
             <nav class="b-nav">
-                <a href="index.html" class="header-logo link">
-                    <span class="logo-color"> Web</span>Studio
+                <a href="index.html" class="logo header__logo link">
+                    <span class="logo__color"> Web</span>Studio
                 </a>
-                <ul class="header-nav">
-                    <li class="item"><a class="header-fonts header-nav-text link " href="index.html">Студия</a>
+                <ul class="navigation header-nav">
+                    <li class="navigation__item item"><a class="navigation__fonts navigation__text link "
+                            href="index.html">Студия</a>
                     </li>
-                    <li class="item"><a class="header-fonts header-nav-text link current"
+                    <li class="navigation__item item"><a class="navigation__fonts navigation__text link current"
                             href="portfolio.html">Портфолио</a>
                     </li>
-                    <li class="item"><a class="header-fonts header-nav-text link" href="">Контакты</a></li>
+                    <li class="navigation__item item"><a class="navigation__fonts navigation__text link"
+                            href="">Контакты</a>
+                    </li>
                 </ul>
             </nav>
-            <ul class="header-addres">
-                <li class="adr-item item">
-                    <div class="hhov">
-                        <a href="mailto:info@devstudio.com" class="header-fonts header-addres-text link">
-                            <svg class="adr-icon ">
+            <ul class="adress">
+                <li class="adress__item item">
+                    <div class="adress__wrap">
+                        <a href="mailto:info@devstudio.com" class="navigation__fonts adress__text link">
+                            <svg class="adress__icon ">
                                 <use href="./images/icons/symbol-defs.svg#icon-envelope" width="16px" height="12px">
                                 </use>
                             </svg>
@@ -52,10 +55,10 @@
                     </div>
 
                 </li>
-                <li class="adr-item item">
-                    <div class="hhov">
-                        <a href="tel:+380961111111" class="header-fonts header-addres-text link">
-                            <svg class="adr-icon tel">
+                <li class="adress__item item">
+                    <div class="adress__wrap">
+                        <a href="tel:+380961111111" class="navigation__fonts adress__text link">
+                            <svg class="adress__icon adress__icon--mod">
                                 <use href="./images/icons/symbol-defs.svg#icon-smartphone-1" width="10px" height="16px">
                                 </use>
                             </svg>+38 096 111 11 11</a>
@@ -72,7 +75,7 @@
 
         <section class="section">
             <div class="container">
-                <h1 class="portfolio-title hidden">Наши проекты</h1>
+                <h1 class="portfolio-title visually-hidden">Наши проекты</h1>
 
                 <ul class="portf-choise-list">
                     <li class="item"><button type="button" class="portf-btn-text">Все</button></li>
@@ -247,8 +250,8 @@
     <footer class="fter">
         <div class="container f-nav">
             <div class="f-left">
-                <a href="index.html" class="footer-logo link">
-                    <span class="logo-color"> Web</span><span class="">Studio</span>
+                <a href="index.html" class="logo footer__logo link">
+                    <span class="logo__color"> Web</span><span class="">Studio</span>
                 </a>
                 <address class="b-nav">
                     <ul class="ftr">
@@ -267,33 +270,35 @@
             </div>
             <div class="footer-social-link">
                 <p class="foot-fonts-social">Присоединяйтесь</p>
-                <ul class="soc-cont-list f-social">
-                    <li class="soc-cont-item">
-                        <a href="" class="soc-cont-link">
-                            <svg class="comand-soc-icon foot" width="20px" height="20px">
-                                <use href="./images/icons/symbol-defs.svg#icon-instagram"></use>
-                            </svg></a>
-                    </li>
-                    <li class="soc-cont-item">
-                        <a href="" class="soc-cont-link">
-                            <svg class="comand-soc-icon foot" width="20px" height="20px">
-                                <use href="./images/icons/symbol-defs.svg#icon-twitter"></use>
-                            </svg></a>
-                    </li>
-                    <li class="soc-cont-item">
-                        <a href="" class="soc-cont-link">
-                            <svg class="comand-soc-icon foot" width="20px" height="20px">
-                                <use href="./images/icons/symbol-defs.svg#icon-facebook"></use>
-                            </svg></a>
-                    </li>
-                    <li class="soc-cont-item">
-                        <a href="" class="soc-cont-link">
-                            <svg class="comand-soc-icon foot" width="20px" height="20px">
-                                <use href="./images/icons/symbol-defs.svg#icon-linkedin"></use>
-                            </svg></a>
-                    </li>
+                <div class="soccontact">
+                    <ul class="soccontact__list ">
+                        <li class="soccontact__item">
+                            <a href="" class="soccontact__link soccontact__link--gray">
+                                <svg class="soccontact__icon" width="20px" height="20px">
+                                    <use href="./images/icons/symbol-defs.svg#icon-instagram"></use>
+                                </svg></a>
+                        </li>
+                        <li class="soccontact__item">
+                            <a href="" class="soccontact__link soccontact__link--gray">
+                                <svg class="soccontact__icon" width="20px" height="20px">
+                                    <use href="./images/icons/symbol-defs.svg#icon-twitter"></use>
+                                </svg></a>
+                        </li>
+                        <li class="soccontact__item">
+                            <a href="" class="soccontact__link soccontact__link--gray">
+                                <svg class="soccontact__icon" width="20px" height="20px">
+                                    <use href="./images/icons/symbol-defs.svg#icon-facebook"></use>
+                                </svg></a>
+                        </li>
+                        <li class="soccontact__item">
+                            <a href="" class="soccontact__link soccontact__link--gray">
+                                <svg class="soccontact__icon" width="20px" height="20px">
+                                    <use href="./images/icons/symbol-defs.svg#icon-linkedin"></use>
+                                </svg></a>
+                        </li>
 
-                </ul>
+                    </ul>
+                </div>
 
 
             </div>
@@ -310,8 +315,6 @@
                 </button>
             </form>
         </div>
-
-
 
 
     </footer>
