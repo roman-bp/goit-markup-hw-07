@@ -1,3 +1,30 @@
+:root {
+  --first-header-color: #212121;
+  --second-header-color: #757575;
+  --title-color: #212121;
+  --text-color: #757575;
+  --hero-title-color: #FFFFFF;
+  --btn-color: #2196F3;
+  --btn-text-color: #ffffff;
+  --btn-secondary-color: #212121;
+  --accent-color: #2196F3;
+  --btn-hover: #188CE8;
+  --first-bgc: #ffffff;
+  --second-bgc: #F5F4FA;
+  --hero-bgc: #2F303A;
+  --footer-bgc: #2F303A;
+  --addres-color: rgba(255, 255, 255, 0.6);
+  --svg-color: #AFB1B8;
+  --modal-placeholder: #212121;
+  --accent-color-hover: #188CE8;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--first-bgc);
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -229,33 +256,6 @@ html {
           box-sizing: border-box;
 }
 
-:root {
-  --first-header-color: #212121;
-  --second-header-color: #757575;
-  --title-color: #212121;
-  --text-color: #757575;
-  --hero-title-color: #FFFFFF;
-  --btn-color: #2196F3;
-  --btn-text-color: #ffffff;
-  --btn-secondary-color: #212121;
-  --accent-color: #2196F3;
-  --btn-hover: #188CE8;
-  --first-bgc: #ffffff;
-  --second-bgc: #F5F4FA;
-  --hero-bgc: #2F303A;
-  --footer-bgc: #2F303A;
-  --addres-color: rgba(255, 255, 255, 0.6);
-  --svg-color: #AFB1B8;
-  --modal-placeholder: #212121;
-  --accent-color-hover: #188CE8;
-}
-
-body {
-  margin: 0 auto;
-  font-family: "Roboto", sans-serif;
-  background-color: var(--first-bgc);
-}
-
 .link {
   text-decoration: none;
   color: var(--first-header-color);
@@ -326,8 +326,8 @@ img {
   background-color: var(--hero-bgc);
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-image.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-image.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/hero-image.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero-image.jpg);
   max-width: 1600px;
   background-repeat: no-repeat;
   background-position: center;
