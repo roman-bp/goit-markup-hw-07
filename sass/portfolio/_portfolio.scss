@@ -2,73 +2,31 @@
     margin-bottom: 70px;
 }
 
-.portf-choise-list {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-
-
-}
-
-.portf-choise-list .item:not(:last-child) {
-    margin-right: 8px;
-}
-
-
-.portf-btn-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    border: none;
-    cursor: pointer;
-    background-color: var(--second-bgc);
-    border-radius: 4px;
-    padding: 6px 22px;
-    transition:
-        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.portf-btn-text:hover,
-.portf-btn-text:focus {
-
-    color: var(--btn-text-color);
-    background-color: var(--accent-color);
-    box-shadow:
-        0px 3px 1px rgba(0, 0, 0, 0.10),
-        0px 1px 2px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-
-}
 
 
 /*-----------------------------portf-work-section----------------------------*/
 
 
 
-.portf-list {
+.card-list {
     display: flex;
     flex-wrap: wrap;
 }
 
-.port-fon {
+.card-list__bgc {
     background-color: var(--first-bgc);
     border: 1px solid #EEEEEE;
     border-top: 0;
     padding: 24px 20px;
 }
 
-.pcard {
+.card-list__link {
     display: inline-block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.pcard:focus,
-.pcard:hover {
+.card-list__link:focus,
+.card-list__link:hover {
     box-shadow:
         0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -76,7 +34,7 @@
 
 }
 
-.portf-list .item:not(:nth-child(3n)) {
+.card-list .item:not(:nth-child(3n)) {
     margin-right: 30px;
 
 
@@ -84,13 +42,13 @@
 
 
 
-.portf-list .item:not(:nth-last-child(-n+3)) {
+.card-list .item:not(:nth-last-child(-n+3)) {
 
     margin-bottom: 30px;
 
 }
 
-.portfolio-post-title {
+.card-list__posttitle {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -100,7 +58,7 @@
 
 }
 
-.portfolio-text {
+.card-list__text {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -108,37 +66,12 @@
     color: var(--text-color);
 }
 
-.portf-list .item:hover {
+.card-list .item:hover {
     cursor: pointer;
 
 }
 
-.pcard:focus .portf-overlay,
-.pcard:hover .portf-overlay {
+.card-list__link:focus .overlay-wrap__text,
+.card-list__link:hover .overlay-wrap__text {
     transform: translateY(0);
-}
-
-
-.overlay-wrap {
-    position: relative;
-    overflow: hidden;
-}
-
-.portf-overlay {
-    background-color: rgba(33, 150, 243, 0.9);
-    color: var(--btn-text-color);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    bottom: 0;
-    left: 0;
-    padding: 63px 24px;
-    font-weight: 400;
-    Font-style: Regular;
-    font-size: 18px;
-    Line-height: 1.55;
-
-    transform: translateY(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
