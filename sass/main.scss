@@ -1,15 +1,30 @@
-@import './utils/variables';
-@import './components/logo';
-@import './header/header';
-@import './components/social-link';
 @import './base/base';
-@import './hero/hero';
-@import './work/work';
-@import './comand/comand';
-@import './client/client';
-@import './about/about';
-@import './footer/footer';
-@import './portfolio/portfolio';
-@import './modal_window/modal-window';
-@import '../sass/components/choise-list';
+
+
+@import './utils/variables';
+@import './utils/_visualy-hidden';
+////////////////////////////////////////////
+@import './components/logo';
+@import './components/social-link';
+@import './components/modal-window';
 @import './components/overlay-wrap';
+@import './components/choise-list';
+@import './components/btn';
+@import './components/conteiner';
+
+
+
+@import './components/modal-window';
+
+/////////////////////////////////////////////
+
+
+
+@import './layout/about';
+@import './layout/client';
+@import './layout/comand';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/portfolio';
+@import './layout/work';

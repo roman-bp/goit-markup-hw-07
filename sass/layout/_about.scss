@@ -1,20 +1,22 @@
-.about__wrap {
-    display: flex;
-    width: 270px;
-    height: 120px;
-    background-color: #f5f4fa;
-    margin-bottom: 30px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
+about {
+    &wrap {
+        display: flex;
+        width: 270px;
+        height: 120px;
+        background-color: #f5f4fa;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+    }
+
+    &wrap &icon {
+        width: 70px;
+        height: 70px;
+    }
 }
 
-.about__icon {
-    width: 70px;
-    height: 70px;
-}
-
-.about__list {
+.about__wrap .about__icon .about__list {
     display: flex;
 
 }
