@@ -799,7 +799,7 @@ textarea {
   resize: none;
 }
 
-about__wrap {
+.about__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -816,19 +816,9 @@ about__wrap {
   border-radius: 4px;
 }
 
-about__wrap about__icon {
+.about__wrap .about__icon {
   width: 70px;
   height: 70px;
-}
-
-.about__wrap .about__icon .about__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.about__list .item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .about__posttitle {
@@ -848,6 +838,16 @@ about__wrap about__icon {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+
+.about__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__list .item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .client {
