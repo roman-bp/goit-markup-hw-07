@@ -88,7 +88,7 @@ img {
 }
 
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -255,6 +255,13 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
+.modal-comment::-moz-placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
 .modal-comment:-ms-input-placeholder {
   font-size: 12px;
   line-height: 1.16;
@@ -322,7 +329,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  content: '';
+  content: "";
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -387,6 +394,10 @@ img {
 }
 
 .modal-input::-webkit-input-placeholder {
+  color: var(--modal-placeholder);
+}
+
+.modal-input::-moz-placeholder {
   color: var(--modal-placeholder);
 }
 
@@ -479,7 +490,7 @@ textarea {
 }
 
 .choise-list__btntext {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -511,7 +522,6 @@ textarea {
   padding: 10px 32px;
   background-color: var(--btn-color);
 }
-
 .btn:hover, .btn:focus {
   background-color: var(--btn-hover);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -616,6 +626,13 @@ textarea {
   color: rgba(117, 117, 117, 0.5);
 }
 
+.modal-comment::-moz-placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
 .modal-comment:-ms-input-placeholder {
   font-size: 12px;
   line-height: 1.16;
@@ -683,7 +700,7 @@ textarea {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  content: '';
+  content: "";
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -751,6 +768,10 @@ textarea {
   color: var(--modal-placeholder);
 }
 
+.modal-input::-moz-placeholder {
+  color: var(--modal-placeholder);
+}
+
 .modal-input:-ms-input-placeholder {
   color: var(--modal-placeholder);
 }
@@ -815,12 +836,10 @@ textarea {
           align-items: center;
   border-radius: 4px;
 }
-
 .about__wrap .about__icon {
   width: 70px;
   height: 70px;
 }
-
 .about__posttitle {
   padding-top: 0;
   font-weight: 700;
@@ -831,7 +850,6 @@ textarea {
   color: var(--title-color);
   margin-bottom: 10px;
 }
-
 .about__text {
   max-width: 270px;
   font-size: 14px;
@@ -839,7 +857,6 @@ textarea {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-
 .about__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -854,7 +871,6 @@ textarea {
   text-align: center;
   background-color: var(--first-bgc);
 }
-
 .client__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -863,16 +879,13 @@ textarea {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 .client__item {
   width: 170px;
   height: 92px;
 }
-
 .client__item + .client__item {
   margin-left: 30px;
 }
-
 .client__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -890,7 +903,6 @@ textarea {
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .client__icon {
   fill: #AFB1B8;
   width: 106px;
@@ -1078,6 +1090,10 @@ textarea {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.client-mail-input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .client-mail-input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -1138,7 +1154,7 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   /* padding-top: 24px;
-    padding-bottom: 25px; */
+  padding-bottom: 25px; */
 }
 
 .b-nav {
@@ -1245,7 +1261,7 @@ textarea {
 
 .current::after {
   position: absolute;
-  content: '';
+  content: "";
   display: block;
   bottom: 0;
   left: 0;
@@ -1278,8 +1294,8 @@ textarea {
   background-color: var(--hero-bgc);
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/box1.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/box1.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/hero-image.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero-image.jpg);
   max-width: 1600px;
   background-repeat: no-repeat;
   background-position: center;
@@ -1424,5 +1440,4 @@ textarea {
   text-transform: uppercase;
   color: white;
   background: rgba(47, 48, 58, 0.8);
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
