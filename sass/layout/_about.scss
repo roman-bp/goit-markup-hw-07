@@ -1,5 +1,5 @@
 about {
-    &wrap {
+    &__wrap {
         display: flex;
         width: 270px;
         height: 120px;
@@ -10,7 +10,7 @@ about {
         border-radius: 4px;
     }
 
-    &wrap &icon {
+    &__wrap &__icon {
         width: 70px;
         height: 70px;
     }
