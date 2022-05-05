@@ -6,17 +6,22 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
 
-}
+    &__header {
+        margin-right: 93px;
+        align-items: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        color: var(--first-header-color);
 
-.header__logo {
-    margin-right: 93px;
-    align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    color: var(--first-header-color);
+    }
 
-}
+    &__color {
+        color: var(--accent-color)
+    }
 
-.logo__color {
-    color: var(--accent-color)
+    &__footer {
+        display: block;
+        color: var(--hero-title-color);
+        margin-bottom: 20px;
+    }
 }
