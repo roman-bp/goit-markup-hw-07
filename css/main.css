@@ -994,6 +994,9 @@ textarea {
   -webkit-transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1), background-color 350ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 350ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1), background-color 350ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-map:hover, .footer-map:focus {
+  color: var(--accent-color);
+}
 
 .foot-fonts-social {
   margin-bottom: 20px;
@@ -1028,20 +1031,10 @@ textarea {
   -webkit-transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1), background-color 350ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 350ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1), background-color 350ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-map:hover,
-.footer-map:focus,
-.footer-addres:hover,
-.footer-addres:focus {
+.footer-addres:hover, .footer-addres:focus {
   color: var(--accent-color);
 }
 
-/* .footer-mailig {
-    align-items: center;
-    display: block;
-    margin-left: 70px;
-
-} */
 .mail-input-title {
   display: block;
   margin-bottom: 20px;
@@ -1066,23 +1059,18 @@ textarea {
   background-color: #2f303a;
   outline: none;
 }
-
 .client-mail-input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .client-mail-input::-moz-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .client-mail-input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .client-mail-input::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .client-mail-input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -1112,9 +1100,7 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--btn-text-color);
 }
-
-.button-submit-user-mail:hover,
-.button-submit-user-mail:focus {
+.button-submit-user-mail:hover, .button-submit-user-mail:focus {
   background-color: var(--btn-hover);
 }
 
@@ -1167,6 +1153,9 @@ textarea {
   -webkit-transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1), background-color 350ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 350ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1), background-color 350ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.navigation__text:hover, .navigation__text:focus {
+  color: var(--accent-color);
+}
 
 .adress {
   display: -webkit-box;
@@ -1216,6 +1205,9 @@ textarea {
           align-items: center;
   color: var(--second-header-color);
 }
+.adress__text:hover, .adress__text:focus {
+  color: var(--accent-color);
+}
 .adress__wrap:hover, .adress__wrap:focus {
   color: var(--accent-color);
 }
@@ -1223,13 +1215,6 @@ textarea {
 .header-nav .item:not(:last-child),
 .adress .item:not(:last-child) {
   margin-right: 50px;
-}
-
-.navigation__text:hover,
-.navigation__text:focus,
-.adress__text:hover,
-.adress__text:focus {
-  color: var(--accent-color);
 }
 
 .current {
