@@ -138,14 +138,11 @@ img {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .soccontact__link--gray {
   color: var(--btn-text-color);
   background-color: rgba(255, 255, 255, 0.1);
 }
-
-.soccontact__link:hover,
-.soccontact__link:focus {
+.soccontact__link:hover, .soccontact__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -155,10 +152,6 @@ img {
   fill: currentColor;
 }
 
-.comand-soc-icon.foot {
-  fill: var(--first-bgc);
-}
-
 .soccontact__item + .soccontact__item {
   margin-left: 10px;
 }
@@ -166,6 +159,10 @@ img {
 .soccontact__link:hover .soccontact__icon,
 .soccontact__link:focus .soccontact__icon {
   fill: var(--btn-text-color);
+}
+
+.comand-soc-icon.foot {
+  fill: var(--first-bgc);
 }
 
 .backdrop {
@@ -456,7 +453,6 @@ textarea {
   position: relative;
   overflow: hidden;
 }
-
 .overlay-wrap__text {
   background-color: rgba(33, 150, 243, 0.9);
   color: var(--btn-text-color);
@@ -508,9 +504,7 @@ textarea {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.choise-list__btntext:hover,
-.choise-list__btntext:focus {
+.choise-list__btntext:hover, .choise-list__btntext:focus {
   color: var(--btn-text-color);
   background-color: var(--accent-color);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -914,13 +908,10 @@ textarea {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client__link:hover,
-.client__link:focus {
+.client__link:hover, .client__link:focus {
   border: 1px solid var(--accent-color);
 }
-
-.client__link:hover .client__icon,
-.client__link:focus .client__icon {
+.client__link:hover .client__icon, .client__link:focus .client__icon {
   fill: var(--accent-color);
 }
 
