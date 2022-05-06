@@ -48,48 +48,42 @@
     align-items: center;
     justify-content: center;
 
-}
+    &__icon {
+        color: var(--text-color);
+        display: flex;
+        height: 12px;
+        width: 16px;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+        fill: currentColor;
 
-.adress__icon {
-    color: var(--text-color);
-    display: flex;
-    height: 12px;
-    width: 16px;
-    margin-right: 10px;
-    justify-content: center;
-    align-items: center;
+    }
 
-}
+    &__icon--mod {
+        width: 10px;
+        height: 16px;
+    }
 
+    &__text {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1),
+            background-color 350ms cubic-bezier(0.4, 0, 0.2, 1),
+            border-radius 350ms cubic-bezier(0.4, 0, 0.2, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-
-
-.adress__icon--mod {
-    width: 10px;
-    height: 16px;
-}
-
-.adress__wrap:hover,
-.adress__wrap:focus {
-    color: var(--accent-color);
+        color: var(--second-header-color);
+    }
 
 
-}
+    &__wrap:hover,
+    &__wrap:focus {
+        color: var(--accent-color);
+    }
 
-
-
-
-.adress__text {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1),
-        background-color 350ms cubic-bezier(0.4, 0, 0.2, 1),
-        border-radius 350ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: var(--second-header-color);
 }
 
 .header-nav .item:not(:last-child),
@@ -99,32 +93,33 @@
 
 
 
-.adress__icon {
-    fill: currentColor;
-}
+
 
 .navigation__text:hover,
 .navigation__text:focus,
 .adress__text:hover,
-.adress__text:focus,
-.current {
+.adress__text:focus {
     color: var(--accent-color);
 
 }
 
-.current::after {
-    position: absolute;
-    content: '';
-    display: block;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background-color: var(--accent-color);
-    border-radius: 2px;
-    margin-bottom: -1px;
+.current {
+    color: var(--accent-color);
+
+    &::after {
+        position: absolute;
+        content: '';
+        display: block;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background-color: var(--accent-color);
+        border-radius: 2px;
+        margin-bottom: -1px;
 
 
+    }
 }
 
 
