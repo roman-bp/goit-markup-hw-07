@@ -5,48 +5,47 @@
 
 
 
-.h-nav {
+.header__container {
     display: flex;
     align-items: center;
     /* padding-top: 24px;
     padding-bottom: 25px; */
 }
 
-.b-nav {
+.navigation {
     display: flex;
     align-items: center;
 
 
 }
 
-.navigation {
+.navigation__list {
     display: flex;
 
-    &__fonts {
-        position: relative;
-        display: block;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        color: var(--first-header-color);
-    }
-
-    &__text {
-        padding-top: 32px;
-        padding-bottom: 32px;
-        transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1),
-            background-color 350ms cubic-bezier(0.4, 0, 0.2, 1),
-            border-radius 350ms cubic-bezier(0.4, 0, 0.2, 1);
-
-        &:hover,
-        &:focus {
-            color: var(--accent-color);
-
-        }
-
-    }
 }
+
+.navigation__item {
+    position: relative;
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--first-header-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 350ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-radius 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+
+    }
+
+}
+
 
 .adress {
     display: flex;
@@ -96,7 +95,7 @@
 
 }
 
-.header-nav .item:not(:last-child),
+.navigation__list .navigation__item:not(:last-child),
 .adress .item:not(:last-child) {
     margin-right: 50px;
 }

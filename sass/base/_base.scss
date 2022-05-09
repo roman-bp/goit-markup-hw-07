@@ -11,10 +11,10 @@ body {
 
 
 
-.link {
-    text-decoration: none;
-    color: var(--first-header-color)
-}
+// .link {
+//     text-decoration: none;
+//     color: var(--first-header-color)
+// }
 
 .section {
     padding: 94px 0;
@@ -48,10 +48,6 @@ img {
     display: block;
 }
 
-
-
-
-
 .container__title {
     margin-top: 0;
     margin-bottom: 50px;
@@ -60,4 +56,8 @@ img {
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--title-color);
+}
+
+a {
+    text-decoration: none;
 }
