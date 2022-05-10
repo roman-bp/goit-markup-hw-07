@@ -1,37 +1,34 @@
 .work {
-    padding-top: 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 
-    &__list {
-        display: flex;
-        justify-content: center;
-    }
 
-    &__overflow {
-        position: relative;
-    }
+.work__overflow {
+    position: relative;
+}
 
-    &__text {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 70px;
-        align-items: center;
-        bottom: 0;
-        left: 0;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        text-transform: uppercase;
-        color: white;
-        background: rgba(47, 48, 58, 0.8)
-    }
+.work__text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: white;
+    background: rgba(47, 48, 58, 0.8)
 }
 
 
 
-.work__list .item:not(:last-child) {
+
+.work .work__item:not(:last-child) {
     margin-right: 30px;
 
 }

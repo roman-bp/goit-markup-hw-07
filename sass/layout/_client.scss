@@ -1,22 +1,23 @@
 .client {
     text-align: center;
     background-color: var(--first-bgc);
+    display: flex;
+    justify-content: center;
 
-    &__list {
-        display: flex;
-        justify-content: center;
-    }
+    // .client__list {
 
-    &__item {
+    // }
+
+    .client__item {
         width: 170px;
         height: 92px;
     }
 
-    &__item+&__item {
+    .client__item+.client__item {
         margin-left: 30px;
     }
 
-    &__link {
+    .client__link {
 
         display: flex;
         justify-content: center;
@@ -29,7 +30,7 @@
 
     }
 
-    &__icon {
+    .client__icon {
 
         fill: #AFB1B8;
         width: 106px;

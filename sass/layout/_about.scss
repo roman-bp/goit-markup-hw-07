@@ -1,5 +1,7 @@
 .about {
-    &__wrap {
+    display: flex;
+
+    .about__wrap {
         display: flex;
         width: 270px;
         height: 120px;
@@ -10,12 +12,12 @@
         border-radius: 4px;
     }
 
-    &__wrap &__icon {
+    .about__wrap .about__icon {
         width: 70px;
         height: 70px;
     }
 
-    &__posttitle {
+    .about__title {
         padding-top: 0;
         font-weight: 700;
         font-size: 14px;
@@ -27,7 +29,7 @@
 
     }
 
-    &__text {
+    .about__text {
         max-width: 270px;
         font-size: 14px;
         line-height: 1.71;
@@ -36,11 +38,9 @@
 
     }
 
-    &__list {
-        display: flex;
-    }
+    .about__list {}
 }
 
-.about__list .item:not(:last-child) {
+.about .about__item:not(:last-child) {
     margin-right: 30px;
 }
