@@ -897,21 +897,14 @@ textarea {
   resize: none;
 }
 
-.about {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
 @media screen and (min-width: 480px) {
   .about {
     display: block;
-    max-width: 480px;
+    padding: 15px 0;
+    min-width: 250px;
   }
 }
 .about .about__wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -923,6 +916,21 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 4px;
+}
+@media screen and (min-width: 480px) {
+  .about .about__wrap {
+    display: block;
+    width: auto;
+    margin-right: 0;
+    padding: 25px 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about .about__wrap {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
 }
 .about .about__wrap .about__icon {
   width: 70px;
@@ -941,9 +949,7 @@ textarea {
 @media screen and (min-width: 480px) {
   .about .about__title {
     display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    max-width: 480px;
   }
 }
 .about .about__text {
@@ -968,6 +974,17 @@ textarea {
   .about .about__item:not(:last-child) {
     margin-right: 0;
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: calc((100% - 60px) / 2);
   }
 }
 
